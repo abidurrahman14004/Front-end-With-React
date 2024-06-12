@@ -1,5 +1,5 @@
 
-
+/* 
 .clock{
     color : blue;
     font-size: 6rem;
@@ -8,4 +8,71 @@
     text-align: center;
     
 
+}
+.box{
+    border: 3px solid ;
+    text-align: center;
+    padding: 10px 5px;
+} */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 228, 230);
+ 
+}
+.Stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(49, 47, 49);
+    border-radius: 50px;
+    background-color: white;
+    padding :30px;
+}
+
+.display{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: hsl(202, 9%, 24%);
+    text-shadow: 2px 2px 2px rgb(218, 215, 215);
+    margin-bottom: 25px;
+
+
+}
+.controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 124px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transform: background-color 0.5s ease ;
+    align-items: center;
+
+}
+.start-button{
+    background-color: green;
+}
+.start-button:hover{
+    background-color: rgb(49, 162, 49);
+}
+.stop-button{ 
+    background-color: red;
+}
+.reset-button{
+    background-color: violet;
+}
+
+
+.stop-button:hover{
+    background-color: rgb(183, 49, 49);
+}
+.reset-button:hover{
+    background-color: blueviolet;
 }
